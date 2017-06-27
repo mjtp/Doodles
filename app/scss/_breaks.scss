@@ -1,0 +1,15 @@
+@media (max-width: 550px) {
+body {
+  .cols {
+	 max-width:100%;
+	 display:block;
+	 .col{
+		 display:block;
+	 }
+    .illustration {
+    	 max-width:100%;
+		 //display:block;
+    }
+  }
+}
+}

@@ -1,0 +1,32 @@
+
+// Mixins
+
+@mixin left-n-right-padding($val) {
+	padding-right:$val;
+	padding-left:$val;
+}
+
+@mixin size-n-padding($val) {
+	font-size:$val;
+	@include left-n-right-padding($val);
+}
+
+@mixin size-n-indent($val) {
+	font-size:$val;
+	text-indent:$val;
+}
+
+@mixin line-fill-n-color($linecolor, $fill, $typecolor) {
+	border:solid $line $linecolor;
+	background-color: $fill;
+	color:$typecolor;
+}
+
+@mixin corners($val) {
+	border-radius:$val;
+}
+
+@mixin box($val) {
+	height:$val;
+	width:$val;
+}

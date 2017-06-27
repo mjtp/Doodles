@@ -1,0 +1,79 @@
+@import 'fibonacci';
+@import 'color';
+
+@font-face {
+    font-family: 'Glacial';
+    src: url('../fonts/GlacialIndifference-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Glacial';
+    src: url('../fonts/GlacialIndifference-Italic.otf') format("opentype");
+	 font-style: italic;
+}
+
+@font-face {
+    font-family: 'Glacial';
+    src: url('../fonts/GlacialIndifference-Bold.otf') format("opentype");
+	 font-weight: bold;
+}
+
+$Font: 'Glacial';
+
+* {
+	font-family:$Font;
+	letter-spacing:$f1;
+	font-weight:normal;
+}
+
+// Headers
+
+h1 {
+	font-size:$f11;	
+}
+
+h2 {
+	font-size:$f10;	
+}
+
+h3 {
+	font-size:$f9;	
+}
+
+h4 {
+	font-size:$f8;	
+}
+
+h5 {
+	font-size:$f7;	
+}
+
+// Paragraphs
+
+p {
+	font-size:$f7;
+	line-height:$f8;
+}
+// Emphesized text
+em {
+	font-style:italic;
+}
+
+
+// Small text
+
+small {
+	font-size:$f6;
+	line-height:$f7;
+}
+
+b {
+	font-weight:bold;
+}
+
+mark {
+	background-color:$brand;
+	color:$light;
+}
+
+

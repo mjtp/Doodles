@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Glacial';
+  src: url("../fonts/GlacialIndifference-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Glacial';
+  src: url("../fonts/GlacialIndifference-Italic.otf") format("opentype");
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Glacial';
+  src: url("../fonts/GlacialIndifference-Bold.otf") format("opentype");
+  font-weight: bold; }
+
+* {
+  font-family: "Glacial";
+  letter-spacing: 1px;
+  font-weight: normal; }
+
+h1 {
+  font-size: 144px; }
+
+h2 {
+  font-size: 89px; }
+
+h3 {
+  font-size: 55px; }
+
+h4 {
+  font-size: 34px; }
+
+h5 {
+  font-size: 21px; }
+
+p {
+  font-size: 21px;
+  line-height: 34px; }
+
+em {
+  font-style: italic; }
+
+small {
+  font-size: 13px;
+  line-height: 21px; }
+
+b {
+  font-weight: bold; }
+
+mark {
+  background-color: blue;
+  color: white; }
+
+button {
+  font-weight: bold;
+  border-radius: 5px;
+  height: 55px;
+  border: solid 3px blue;
+  background-color: blue;
+  color: white;
+  font-size: 21px;
+  padding-right: 21px;
+  padding-left: 21px; }
+
+button.large {
+  height: 89px;
+  font-size: 34px;
+  padding-right: 34px;
+  padding-left: 34px; }
+
+button.medium {
+  height: 55px;
+  font-size: 21px;
+  padding-right: 21px;
+  padding-left: 21px; }
+
+button.small {
+  height: 34px;
+  font-size: 13px;
+  padding-right: 13px;
+  padding-left: 13px; }
+
+button.line-brand {
+  border: solid 3px blue;
+  background-color: white;
+  color: blue; }
+
+button.filled-dark {
+  border: solid 3px black;
+  background-color: black;
+  color: white; }
+
+button.filled-light {
+  border: solid 3px white;
+  background-color: white;
+  color: blue; }
+
+nav {
+  height: 55px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  /* works with row or column */
+  flex-direction: row; }
+
+nav .logo {
+  height: 34px;
+  width: 34px;
+  background-color: white;
+  align-self: center; }
+
+nav a {
+  align-self: center; }
+
+nav.large {
+  height: 89px; }
+
+nav.medium {
+  height: 55px; }
+
+nav.small {
+  height: 34px; }
+
+nav.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0px; }
+
+input {
+  height: 55px;
+  font-size: 21px;
+  text-indent: 21px; }
+
+input.large {
+  height: 89px;
+  font-size: 34px;
+  text-indent: 34px; }
+
+input.medium {
+  height: 55px;
+  font-size: 21px;
+  text-indent: 21px; }
+
+input.small {
+  height: 34px;
+  font-size: 13px;
+  text-indent: 13px; }
+
+.cols {
+  display: flex;
+  flex-wrap: wrap; }
+
+.col {
+  flex: 1; }
+
+.col-2 {
+  flex: 2; }
+
+.col-3 {
+  flex: 3; }
+
+.col-4 {
+  flex: 4; }
+
+.col-5 {
+  flex: 5; }
+
+@media (max-width: 550px) {
+  body .cols {
+    max-width: 100%;
+    display: block; }
+    body .cols .col {
+      display: block; }
+    body .cols .illustration {
+      max-width: 100%; } }
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  outline: none; }
+
+body {
+  margin: 0px; }
+
+a {
+  color: white;
+  padding-right: 21px;
+  padding-left: 21px; }
+
+button {
+  margin: 8px; }
+
+nav {
+  background-color: blue;
+  margin-bottom: 30px; }
+
+.card {
+  min-width: 398px; }
+
+.illustration {
+  min-width: 500px;
+  min-height: 500px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%; }
+
+.illustrations {
+  position: absolute;
+  top: 100%; }
+
+.script {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(../assets/torres.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%; }
+
+.I1 {
+  background-image: url(../assets/sea_cow.svg); }
+
+.I2 {
+  background-image: url(../assets/toes_on_the_nose.svg); }
+
+.I3 {
+  background-image: url(../assets/fried_fish.svg); }
+
+.I4 {
+  background-image: url(../assets/magic_carpet.svg); }
+
+.I5 {
+  background-image: url(../assets/board_in_a_bottle.svg); }
+
+.I6 {
+  background-image: url(../assets/sword_fish.svg); }
+
+.I7 {
+  background-image: url(../assets/dont_snake_waves.svg); }

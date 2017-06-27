@@ -1,0 +1,46 @@
+@import 'fibonacci';
+@import 'mixtape';
+
+// Default
+nav {
+	height:$f9;
+	//flex
+	display: -webkit-flex;
+	display: flex;
+   -webkit-flex-direction: row; /* works with row or column */
+	flex-direction: row;
+	//-webkit-align-items: center;
+	//align-items: center;
+	//-webkit-justify-content: center;
+	//justify-content: center;
+}
+// Nested
+nav {
+	.logo {
+		@include box($f8);
+		background-color:$light;
+		align-self:center;
+	}
+	a {
+		align-self: center;
+	}
+}
+
+// Variations
+nav.large { 
+	height:$f10;
+}
+
+nav.medium { 
+	height:$f9;
+}
+
+nav.small { 
+	height:$f8;
+}
+
+nav.fixed {
+	width:100%;
+	position:fixed;
+	top: 0px;
+}

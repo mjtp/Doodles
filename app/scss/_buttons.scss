@@ -1,0 +1,48 @@
+@import 'fibonacci';
+@import 'variables';
+@import 'color';
+@import 'mixtape';
+
+
+
+// All buttons
+button {
+	font-weight:bold;
+	@include corners($radius);
+	
+	// Default is same as Medium
+	height:$f9;
+	@include line-fill-n-color($brand, $brand, $light);
+	@include size-n-padding($f7);
+}
+
+
+// Sizing
+button.large {
+	height:$f10;
+	@include size-n-padding($f8);	
+}
+
+button.medium {
+	height:$f9;
+	@include size-n-padding($f7);
+}
+
+button.small {
+	height:$f8;
+	@include size-n-padding($f6);
+}
+
+
+// Variations
+button.line-brand {
+	@include line-fill-n-color($brand, $light, $brand)
+}
+
+button.filled-dark {
+	@include line-fill-n-color($dark, $dark, $light)
+}
+
+button.filled-light {
+	@include line-fill-n-color($light, $light, $brand)
+}

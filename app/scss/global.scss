@@ -1,0 +1,100 @@
+@import 'fibonacci';
+@import 'type';
+@import 'buttons';
+@import 'color';
+@import 'nav';
+@import 'inputs';
+@import 'grid';
+@import 'mixtape';
+@import 'breaks';
+
+* {
+	//color: $brand;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	outline:none;
+}
+
+body {
+	margin: 0px;
+}
+
+
+// Just for this 
+
+a {
+	color:$light;
+	@include left-n-right-padding($f7);
+
+}
+
+button {
+	margin:$f5;
+}
+
+nav {
+	background-color:$brand;
+	margin-bottom:30px;
+}
+
+.card{
+	min-width:398px;
+}
+
+
+.illustration {
+	min-width: 500px;
+	min-height: 500px;
+	margin: 5px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 70%;
+}
+.illustrations {
+   position: absolute;
+   top: 100%;
+	
+}
+
+.script{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-image:url(../assets/torres.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50%;
+}
+.I1 {
+	background-image:url(../assets/sea_cow.svg);
+}
+
+.I2 {
+	background-image:url(../assets/toes_on_the_nose.svg);
+}
+
+.I3 {
+	background-image:url(../assets/fried_fish.svg);
+}
+
+.I4 {
+	background-image:url(../assets/magic_carpet.svg);
+}
+
+.I5 {
+	background-image:url(../assets/board_in_a_bottle.svg);
+}
+
+.I6 {
+	background-image:url(../assets/sword_fish.svg);
+}
+
+.I7 {
+	background-image:url(../assets/dont_snake_waves.svg);
+}
+
+
+
+
+

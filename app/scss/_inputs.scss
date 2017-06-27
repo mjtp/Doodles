@@ -1,0 +1,30 @@
+@import 'fibonacci';
+@import 'mixtape';
+@import 'variables';
+
+input {
+	
+	// Default Medium
+	height:$f9;
+	@include size-n-indent($f7);	
+	
+	//@include corners($radius)
+	//border: solid $line $brand;
+}
+
+input.large {
+	height:$f10;
+	@include size-n-indent($f8);
+}
+
+input.medium {
+	height:$f9;
+	@include size-n-indent($f7);
+	
+}
+
+input.small {   
+	height:$f8;
+	@include size-n-indent($f6);
+	
+}
